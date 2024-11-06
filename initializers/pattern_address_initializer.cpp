@@ -3,27 +3,20 @@
 //
 
 #include <iostream>
-#include "memory_pattern_initializer.h"
+#include "pattern_address_initializer.h"
 #include "../global_data.h"
 #include "../memory/enumerator/windows_memory_enumerator.h"
 #include "LightningScanner/LightningScanner.hpp"
 #include "../utils/convert.h"
 
 using namespace utils::convert;
-void memory_pattern_initializer::initialize(initialize_data* data) {
+void pattern_address_initializer::initialize(initialize_data* data) {
     auto d = global_data::get_default();
-    d->pattern_mgr->clear();
     d->pattern_address_mgr->clear();
-    add_patterns();
     resolve_loop();
 }
-void memory_pattern_initializer::add_patterns() {
-    auto d = global_data::get_default();
-    d->pattern_mgr->add_pattern("rulesets", memory_pattern("7D 15 A1 ?? ?? ?? ?? 85 C0"));
 
-}
-
-void memory_pattern_initializer::resolve_patterns(memory_region* region, std::vector<std::string>* resolved_memory_pattern_name) {
+void pattern_address_initializer::resolve_patterns(memory_region* region, std::vector<std::string>* resolved_memory_pattern_name) {
     auto d = global_data::get_default();
     auto it = d->pattern_mgr->get_patterns_begin();
     for(auto i = it; i != d->pattern_mgr->get_patterns_end(); ++i) {
@@ -63,7 +56,7 @@ void memory_pattern_initializer::resolve_patterns(memory_region* region, std::ve
     }
 }
 
-void memory_pattern_initializer::resolve_loop() {
+void pattern_address_initializer::resolve_loop() {
     auto d = global_data::get_default();
     auto p = d->watcher->get_current_process();
     while (p == nullptr || p->is_exited()) {

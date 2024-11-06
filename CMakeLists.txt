@@ -27,8 +27,8 @@ add_executable(cosu main.cpp
         initializers/initializer_chain.h
         global_data.cpp
         global_data.h
-        initializers/memory_pattern_initializer.cpp
-        initializers/memory_pattern_initializer.h
+        initializers/pattern_address_initializer.cpp
+        initializers/pattern_address_initializer.h
         patterns/memory_pattern.cpp
         patterns/memory_pattern.h
         patterns/memory_pattern.h
@@ -55,6 +55,8 @@ add_executable(cosu main.cpp
         initializers/read_items_initializer.h
         pointers/pointer_chain.cpp
         pointers/pointer_chain.h
+        initializers/pattern_initializer.cpp
+        initializers/pattern_initializer.h
 )
 
 
