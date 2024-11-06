@@ -1,0 +1,6 @@
+external/projects/LightningScanner-1.0.2/out
+external/projects/LightningScanner-1.0.2/.vs
+out
+.vs
+cmake-build-debug-vs-x64
+cmake-build-debug-vs-x86
