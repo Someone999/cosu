@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "external/projects/LightningScanner-1.0.2",
+		"source" : "external/projects/LightningScanner-1.0.2"
+	}
+}

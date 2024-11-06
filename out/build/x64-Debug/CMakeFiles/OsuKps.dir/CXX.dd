@@ -1,0 +1,17 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\OsuKps.dir\main.cpp.obj: dyndep
+
+build CMakeFiles\OsuKps.dir\memory\memory_reader.cpp.obj: dyndep
+
+build CMakeFiles\OsuKps.dir\process\process.cpp.obj: dyndep
+
+build CMakeFiles\OsuKps.dir\process\process_watcher.cpp.obj: dyndep
+
+build CMakeFiles\OsuKps.dir\process\process_finder.cpp.obj: dyndep
+
+build CMakeFiles\OsuKps.dir\memory\pattern_manager.cpp.obj: dyndep
+
+build CMakeFiles\OsuKps.dir\memory\enumerator\windows_memory_enumerator.cpp.obj: dyndep
+
+build CMakeFiles\OsuKps.dir\memory\enumerator\memory_region.cpp.obj: dyndep
+

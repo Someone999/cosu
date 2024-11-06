@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\OsuKps.dir\\process\\process_finder.cpp.obj",
+            "outputs": [
+                "L:\\CLionProjects\\OsuKps\\out\\build\\x86-Debug\\vc140.pdb",
+                "CMakeFiles\\OsuKps.dir\\process\\process_finder.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

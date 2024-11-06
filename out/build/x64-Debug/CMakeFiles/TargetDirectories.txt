@@ -1,0 +1,6 @@
+L:/CLionProjects/OsuKps/out/build/x64-Debug/CMakeFiles/OsuKps.dir
+L:/CLionProjects/OsuKps/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+L:/CLionProjects/OsuKps/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+L:/CLionProjects/OsuKps/out/build/x64-Debug/external/projects/LightningScanner-1.0.2/CMakeFiles/LightningScanner.dir
+L:/CLionProjects/OsuKps/out/build/x64-Debug/external/projects/LightningScanner-1.0.2/CMakeFiles/edit_cache.dir
+L:/CLionProjects/OsuKps/out/build/x64-Debug/external/projects/LightningScanner-1.0.2/CMakeFiles/rebuild_cache.dir
